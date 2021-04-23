@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -9,10 +10,63 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFFFFF;
     font-size: 3rem;
+    color: #FFFFFF;
 }
 
 .contact-container {
     display: flex;
+    justify-content: space-between;
+    height: 324px;
+    width: 850px;
+    margin-top: 1rem;
+    background-color: #eee;
+}
+
+.contact-item {
+    width: 270px;
+    box-sizing: border-box;
+    padding: 1rem;
+    color: rgb(70, 69, 69);
+}
+
+.contact-item h2 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.contact-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-item ul li {
+    margin-bottom: 0.5rem;
+}
+
+form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+input,
+textarea {
+    padding: 0.5rem;
+}
+
+input[type='submit'] {
+    background-color: rgb(70, 69, 69);
+    color: #FFFFFF;
+    padding: 0.5rem 2rem;
+    border: none;
+}
+
+input[type='submit']:hover,
+input[type='submit']:active,
+input[type='submit']:focus {
+    background-color: #000;
+    cursor: pointer;
 }
