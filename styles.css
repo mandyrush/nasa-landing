@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+header {
+    background: url('./space-image.jpg') no-repeat center center;
+    width: 850px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 3rem;
+}
+
+.contact-container {
+    display: flex;
+}
